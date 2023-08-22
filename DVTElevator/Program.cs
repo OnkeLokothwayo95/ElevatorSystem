@@ -62,6 +62,11 @@ namespace ElevatorSystem
 
 
                     }
+
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("Arrived, Doors Opening. Please Exit: ");
+
+
                 }
 
             }
