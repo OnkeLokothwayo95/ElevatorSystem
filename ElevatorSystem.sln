@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSystem", "DVTElevator\ElevatorSystem.csproj", "{4D7BBB14-BF1B-43A7-824A-52CD2CDFEE02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElevatorSystem", "DVTElevator\ElevatorSystem.csproj", "{4D7BBB14-BF1B-43A7-824A-52CD2CDFEE02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "X. Test Layer", "X. Test Layer", "{9F760EF8-1A6D-400F-901F-119DDF4AE418}"
 EndProject
@@ -13,9 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Service Layer", "2. Serv
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain Layer", "3. Domain Layer", "{62631219-A89A-4362-919F-823105171EB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSystem.Services", "ElevatorSystem.Services\ElevatorSystem.Services.csproj", "{B80B1AAB-EF2E-4ADD-ADD4-68C7A52550F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElevatorSystem.Services", "ElevatorSystem.Services\ElevatorSystem.Services.csproj", "{B80B1AAB-EF2E-4ADD-ADD4-68C7A52550F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSystem.Domain", "ElevatorSystem.Domain\ElevatorSystem.Domain.csproj", "{0164A5FC-752F-4B00-BEDA-596B46C432C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElevatorSystem.Domain", "ElevatorSystem.Domain\ElevatorSystem.Domain.csproj", "{0164A5FC-752F-4B00-BEDA-596B46C432C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Message Layer", "4. Message Layer", "{792FF8C9-F6B9-45D2-92C4-DBA91D85581C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSystem.Messages", "ElevatorSystem.Messages\ElevatorSystem.Messages.csproj", "{AD132DC8-42F4-476F-8B5B-22514A14269E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 		{0164A5FC-752F-4B00-BEDA-596B46C432C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0164A5FC-752F-4B00-BEDA-596B46C432C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0164A5FC-752F-4B00-BEDA-596B46C432C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD132DC8-42F4-476F-8B5B-22514A14269E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD132DC8-42F4-476F-8B5B-22514A14269E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD132DC8-42F4-476F-8B5B-22514A14269E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD132DC8-42F4-476F-8B5B-22514A14269E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +51,7 @@ Global
 		{4D7BBB14-BF1B-43A7-824A-52CD2CDFEE02} = {151DE140-43D5-4D22-B0D2-C6CCF84A5049}
 		{B80B1AAB-EF2E-4ADD-ADD4-68C7A52550F7} = {B2FF8141-EF5F-4E11-A987-6999232E8B33}
 		{0164A5FC-752F-4B00-BEDA-596B46C432C7} = {62631219-A89A-4362-919F-823105171EB6}
+		{AD132DC8-42F4-476F-8B5B-22514A14269E} = {792FF8C9-F6B9-45D2-92C4-DBA91D85581C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2CE105CC-0AB0-4C20-B613-00E8AA6D6443}

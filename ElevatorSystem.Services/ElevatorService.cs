@@ -2,7 +2,14 @@
 
 namespace ElevatorSystem.Services
 {
-    public class ElevatorService
+    public class ElevatorService : IElevatorService
     {
+
+        public ElevatorService()
+        {
+            //
+        }
+
+
     }
 }

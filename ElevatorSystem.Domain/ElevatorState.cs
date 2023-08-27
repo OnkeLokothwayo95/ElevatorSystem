@@ -5,6 +5,6 @@
         Stagnant = 0,
         MovingUp = 1,
         MovingDown = 2,
-        OverWeightLimit = 3
+        OverWeight = 3
     }
 }
