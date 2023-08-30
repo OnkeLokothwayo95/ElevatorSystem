@@ -5,7 +5,7 @@ namespace ElevatorSystem.Messages
 {
     public class ElevatorRequest
     {
-        public Elevator elevator { get; set; }
+        public Elevator Elevator { get; set; }
 
     }
 }
